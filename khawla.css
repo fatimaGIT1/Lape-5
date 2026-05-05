@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: moccasin;
+}
+p {
+    color: black;
+}
+.menu {
+background-color: cadetblue;
+overflow: auto;
+}
+.menu ul {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+.menu li a {
+display: inline-block;
+height: auto;
+width: 150px;
+color: black;
+background-color: dimgray;
+padding: 10px;
+margin: 4px;
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+text-decoration: none;
+border-radius: 4px;
+}
+.menu li a :hover {
+    background-color: hotpink;
+
+}
+.footor p {
+    color: aliceblue;
+
+}
+.main {
+    overflow: auto;
+    background-color: grey;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.gallery {
+    overflow: auto;
+    background-color: bisque;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.gallery img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 6px;
+    margin: 2px;
+    object-fit: cover;
+    object-position: top;
+}
+.footor {
+    overflow: auto;
+    background-color: darksalmon;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.footor ul {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.footor li {
+    display: inline-block;
+    height: auto;
+    width: auto;
+
+}
+.footor li a {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    color: black;
+    background-color: dimgrey;
+    padding: 10px;
+    margin: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.footor li a:hover {
+    background-color: hotpink;
+}
